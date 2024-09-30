@@ -1,6 +1,6 @@
 # Travel
 
-[![Test](https://github.com/markthequark/travel/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/markthequark/travel/actions/workflows/test.yml)
+![Test](https://github.com/markthequark/fcm_travel/actions/workflows/test.yml/badge.svg)
 
 My solution to the FCM Digital Elixir technical challenge.  
 For full details of the technical challenge see [TASK.md](TASK.md)
