@@ -32,9 +32,9 @@ defmodule Travel.Trip.SegmentTest do
 
         starts_at = DateTime.new!(starts_at, ~T[00:00:00])
         ends_at = DateTime.new!(ends_at, ~T[00:00:00])
-        flight_or_hotel = Factory.build(unquote(factory), starts_at: starts_at, ends_at: ends_at)
+        flight_or_train = Factory.build(unquote(factory), starts_at: starts_at, ends_at: ends_at)
 
-        assert Segment.compare(hotel, flight_or_hotel) == :eq
+        assert Segment.compare(hotel, flight_or_train) == :eq
       end
     end
 
